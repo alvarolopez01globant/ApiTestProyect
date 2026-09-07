@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PerfDog API Test Suite" verbose="1">
+    <test name="API Tests">
+        <classes>
+            <class name="org.globant.test.UserTests"/>
+            <class name="org.globant.test.PetTests"/>
+            <class name="org.globant.test.StoreTests"/>
+        </classes>
+    </test>
+</suite>
